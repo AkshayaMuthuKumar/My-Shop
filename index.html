@@ -3,8 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="https://d7cxvscusq782.cloudfront.net/assets/careers-6f6c01637e60d0da95e4ab7d7e9dd96c0c368525ba5aa65729830177efddff49.css" />
+    <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"
+        data-company-font="true" />
+    <link rel="stylesheet" media="screen" href="https://dgivdslhqe3qo.cloudfront.net/careers/sites/14895/style_1537354717.css"
+        data-company-css="true" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
@@ -23,15 +29,40 @@ margin:auto;
 max-height:800px;
 content: 800;
 }
+@media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
 .colorme{
-color:#181751;
+color:#1C1C84;
 }
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+#category {padding-top:50px;height:700px;color:white; background-color:#3D3D46}
+#gallery {padding-top:50px;height:900px;color:white; background-color:#3D3D46}
+#location {padding-top:50px;height:900px;color:white; background-color:#3D3D46}
+#home {padding-top:50px;height:600px;color:white; background-color:#3D3D46}
+
+#contact {padding-top:50px;height:500px;color:white; background-color:#3D3D46}
+#aboutus {padding-top:50px;height:500px;color:white; background-color: #3D3D46}
 
 </style>
 </head>
 
 <body>
-    
+
     <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -41,22 +72,23 @@ color:#181751;
                     <span class="icon-bar"></span>
                 </button>
                 <a href="#home"><img src=".\Logo1.png" width="200" height="50" alt="logo"></a>
-                <a class="navbar-brand" style="color:white" href="#home"></a>
+
             </div>
-            
+
             <div class="collapse navbar-collapse mr-auto" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#home" class="colorme"><span class="glyphicon glyphicon-home"> <b>HOME</b></span></a></li>
                     <li><a href="#category" class="colorme"><span class="glyphicon glyphicon-list-alt"> <b>CATEGORY</b></span></a></li>
-                    <li><a href="#Gallery" class="colorme"><span class="glyphicon glyphicon-picture"> <b>GALLERY</b></span></a></li>
+                    <li><a href="#gallery" class="colorme"><span class="glyphicon glyphicon-picture"> <b>GALLERY</b></span></a></li>
                     <li><a href="#aboutus" class="colorme"><span class="glyphicon glyphicon-user"> <b>ABOUTUS</b></span></a></li>
                     <li><a href="#contact" class="colorme"><span class="glyphicon glyphicon-phone"> <b>CONTACTUS</b></span></a></li>
                     <li><a href="#location" class="colorme"><span class="glyphicon glyphicon-map-marker"> <b>LOCATION</b></span></a></li>
                 </ul>
             </div>
         </div>
-        </div>
-    </nav><br>
+
+    </nav>
+    <br>
     <br>
     <hr>
     <div id="home">
@@ -90,7 +122,7 @@ color:#181751;
     <hr>
     <div id=category>
         <div class="container text-center">
-            <h3><b>CATEGORY</b></h3><br>
+            <h2><b>CATEGORY</b></h2><br>
             <div class="row text-center">
                 <div class="col-md-3">
                     <div class="thumbnail">
@@ -146,13 +178,90 @@ color:#181751;
     <hr>
     <div id="gallery">
         <div class="container text-center">
-            <h3><b>GALLERY</b></h3><br>
+            <h2><b>GALLERY</b></h2><br>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="ga-1.jpg" class="img-responsive" alt="Image">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="ga-2.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="ga-3.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="ga-4.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="ga-5.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                </div>
+            </div>
         </div>
     </div><br>
     <hr>
-    <div class="aboutus">
+    <div id="aboutus">
         <div class="container text-center">
-            <h3><b>ABOUT US</b></h3><br>
+            <h2><b>ABOUT US</b></h2><br>
+            <div class='text row'>
+                <div class='photo col-md-6'>
+                    <img class="img-responsive" src="./about.jpg" width=100% alt="Normal photo 1513033256" />
+                </div>
+                <div class='body col-md-6 text-justify'>
+                    <p>We, Guhan Hardware located in Madurai, Tamil Nadu, are a pioneer organisation engaged in
+                        supplying and trading a broad array of nuts, bolts and industrial fasteners available in
+                        various brands. These products are manufactured in strict compliance with the industrial
+                        standards, by using superior quality raw material, procured from the certified vendors.
+                        Further, our products possess certain salient features like high tensile strength, corrosion
+                        resistance and longer service life. We work hard for winning the utmost trust of the clients.
+                        Ensuring the same, we offer our entire range of products at competitive market prices. Further,
+                        our patrons appreciate us for our consistent quality standards and we try to maintain the same.
+                        We have a team of experienced quality auditors, who ensure that we offer a defect free range of
+                        products to our customers. Being a client-oriented company, we always work hard to fulfil the
+                        dynamic demands of our valued clients. The range offered by us is in line with varied quality
+                        standards and specifications of our clients.</p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <hr>
+    <div id="contact">
+        <div class="container text-center">
+            <h2><b>CONTACT US</b></h2><br>
+            <p style="padding:0rem 5rem;" class="colorme">
+                <h3><span class="glyphicon glyphicon-map-marker"> <b>OUR SHOP ADDRESS</b></h3>
+                <h4>585, Guhan Hardwares,</h4>
+                <h4>Near Yanai Kulai, Anna Nagar, </h4>
+                <h4> Madurai, Tamil Nadu 625020</h4>
+            </p>
+            <p style="padding:0rem 5rem;" class="colorme">
+                <h3><span class="glyphicon glyphicon-earphone"> <b>CALL US</b></h3>
+                <h4>+91-8754332496</h4>
+            </p>
+            <p style="padding:0rem 5rem;" class="colorme">
+                <h3><span class="glyphicon glyphicon-time	"> <b>OUR TIMING</b></h3>
+                <h4>Monday to Saturday : 08:00 AM to 10:30 PM</h4>
+                <h4>Sunday : 08:30 AM to 4:30 PM</h4>
+            </p>
+        </div>
+    </div><br>
+    <hr>
+    <div id="location">
+        <div class="container text-center">
+            <h3><b>LOCATION</b></h3><br>
+        </div>
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height:400px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d3930.1436363892662!2d78.14748856479353!3d9.921993242904659!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d9.9227565!2d78.14878259999999!4m5!1s0x3b00c5ae9e88b033%3A0xad1d805905a6cfd!2sguhan+hardwares!3m2!1d9.92123!2d78.150544!5e0!3m2!1sen!2sin!4v1547272009569"
+                width="400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
 </body>
