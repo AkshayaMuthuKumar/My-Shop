@@ -1,276 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" media="screen" href="https://d7cxvscusq782.cloudfront.net/assets/careers-6f6c01637e60d0da95e4ab7d7e9dd96c0c368525ba5aa65729830177efddff49.css" />
     <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"
         data-company-font="true" />
-    <link rel="stylesheet" media="screen" href="https://dgivdslhqe3qo.cloudfront.net/careers/sites/14895/style_1537354717.css"
-        data-company-css="true" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="./styles.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-        .navbar{
-        margin-bottom:0px;
-        border-radius:0;
-        background-color:#ECD833;
-        }
-        footer{
-        background-color:#ECD833;
-        padding:10px;
-        }
-        .carousel-inner img{
-        width:100%;
-        margin:auto;
-        max-height:800px;
-        content: 800;
-        }
-        .colorme{
-        color:#1C1C84;
-        }
-        .map-container{
-        overflow:hidden;
-        padding-bottom:56.25%;
-        position:relative;
-        height:0;
-        }
-        .map-container iframe{
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
-        position:absolute;
-        }
-        #category {padding-top:50px;height:100%;color:white; background-color:#3D3D46}
-        #gallery {padding-top:50px;height:100%;color:white; background-color:#3D3D46}
-        #location {padding-top:50px;height:100%;color:white; background-color:#3D3D46}
-        #home {padding-top:50px;height:100%;color:white; background-color:#3D3D46}
-        #contact {padding-top:50px;height:100%;color:white; background-color:#3D3D46}
-        #aboutus {padding-top:50px;height:100%;color:white; background-color: #3D3D46}
-        @media (max-width: 600px) {
-        .carousel-caption {
-        display: none; 
-        }
-        }
-        #contact h3{
-        color:#E0350B;
-        }
-    </style>
 </head>
-
 <body>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home"><b>GUHAN HARDWARES</b></a>
+            </div>
 
-        <nav class="navbar navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#home"><img src=".\Logo1.png" width="200" height="50" alt="logo"></a>
-
-                </div>
-
-                <div class="collapse navbar-collapse mr-auto" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#home" class="colorme"><span class="glyphicon glyphicon-home"> <b>HOME</b></span></a></li>
-                        <li><a href="#category" class="colorme"><span class="glyphicon glyphicon-list-alt"> <b>CATEGORY</b></span></a></li>
-                        <li><a href="#gallery" class="colorme"><span class="glyphicon glyphicon-picture"> <b>GALLERY</b></span></a></li>
-                        <li><a href="#aboutus" class="colorme"><span class="glyphicon glyphicon-user"> <b>ABOUTUS</b></span></a></li>
-                        <li><a href="#contact" class="colorme"><span class="glyphicon glyphicon-phone"> <b>CONTACTUS</b></span></a></li>
-                        <li><a href="#location" class="colorme"><span class="glyphicon glyphicon-map-marker"> <b>LOCATION</b></span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <br>
-        <hr>
-        <div id="home">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src=".\caro1.jpg" class="img-responsive" alt="Image">
-                    </div>
-                    <div class="item">
-                        <img src=".\caro2.jpg" class="img-responsive" alt="Image">
-                    </div>
-                    <div class="item">
-                        <img src=".\caro3.jpg" class="img-responsive" alt="Image">
-                    </div>
-                </div>
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div><br>
-        <hr>
-        <div id=category>
-            <div class="container text-center">
-                <h2><b>CATEGORY</b></h2><br>
-                <div class="row text-center">
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="nut.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                            <p style="color:black"><b>Nut Bolts and Screws</b></p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="paint.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                            <p style="color:black"><b>Colorfull Paints</b></p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="wire.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                            <p style="color:black"><b>Wires</b></p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="light.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                            <p style="color:black"><b>Ordinary and LED Bulbs</b></p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="pipes.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                            <p style="color:black"><b>Pipes</b></p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="cement.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                            <p style="color:black"><b>Building Cement</b></p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="carbon steel wires.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                            <p style="color:black"><b>Carbon Steel Wires</b></p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="switch.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                            <p style="color:black"><b>Switches</b></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><br>
-        <hr>
-        <div id="gallery">
-            <div class="container text-center">
-                <h2><b>GALLERY</b></h2><br>
-
-                <div class="row text-center">
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="ga-1.jpg" class="img-responsive" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="ga-2.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="ga-3.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="ga-4.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="ga-5.jpg" class="img-responsive" width="400" height="300" alt="Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><br>
-        <hr>
-        <div id="aboutus">
-            <div class="container text-center">
-                <h2><b>ABOUT US</b></h2><br>
-                <div class='row text-center'>
-                    <div class='photo col-md-6'>
-                        <img class="img-responsive" src="./about.jpg" width=100% alt="Normal photo 1513033256" />
-                        <br><br>
-                    </div>
-                    <div class='body col-md-6 text-justify'>
-                        <p>We, Guhan Hardware located in Madurai, Tamil Nadu, are a pioneer organisation engaged in
-                            supplying and trading a broad array of nuts, bolts and industrial fasteners available in
-                            various brands. These products are manufactured in strict compliance with the industrial
-                            standards, by using superior quality raw material, procured from the certified vendors.
-                            Further, our products possess certain salient features like high tensile strength,
-                            corrosion resistance and longer service life. We work hard for winning the utmost trust of
-                            the
-                            clients. Ensuring the same, we offer our entire range of products at competitive market
-                            prices.
-                            Further,our patrons appreciate us for our consistent quality standards and we try to
-                            maintain the
-                            same.We have a team of experienced quality auditors, who ensure that we offer a defect free
-                            range of products to our customers. Being a client-oriented company, we always work hard to
-                            fulfil
-                            the dynamic demands of our valued clients. The range offered by us is in line with varied
-                            quality standards and specifications of our clients.</p>
-                    </div>
-                </div>
-            </div>
-        </div><br>
-        <hr>
-        <div id="contact">
-            <div class="container text-center">
-                <h2><b>CONTACT US</b></h2>
-                <p style="padding:0rem 5rem;" class="colorme">
-                    <h3><span class="glyphicon glyphicon-map-marker text-center"> <b>OUR SHOP ADDRESS</b></h3>
-                    <h4>585, Guhan Hardwares,</h4>
-                    <h4>Near Yanai Kulai, Anna Nagar, </h4>
-                    <h4> Madurai, Tamil Nadu 625020</h4>
-                </p>
-                <p style="padding:0rem 5rem;" class="colorme">
-                    <h3><span class="glyphicon glyphicon-earphone text-center"> <b>CALL US</b></h3>
-                    <h4>+91-8754332496</h4>
-                </p>
-                <p style="padding:0rem 5rem;" class="colorme">
-                    <h3><span class="glyphicon glyphicon-time text-center"> <b>OUR TIMING</b></h3>
-                    <h4>Monday to Saturday : 08:00 AM to 10:30 PM</h4>
-                    <h4>Sunday : 08:30 AM to 4:30 PM</h4>
-                </p>
-                <br>
-                <br><br>
-            </div>
-        </div><br>
-        <hr>
-        <div id="location">
-            <div class="container text-center">
-                <h2><b>LOCATION</b></h2><br>
-            </div>
-            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height:400px">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d3930.1436363892662!2d78.14748856479353!3d9.921993242904659!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d9.9227565!2d78.14878259999999!4m5!1s0x3b00c5ae9e88b033%3A0xad1d805905a6cfd!2sguhan+hardwares!3m2!1d9.92123!2d78.150544!5e0!3m2!1sen!2sin!4v1547272009569"
-                    width="400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="collapse navbar-collapse mr-auto" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#category" class="colorme"><span class="fa fa-share-alt"> <b>CATEGORY</b></span></a></li>
+                    <li><a href="#gallery" class="colorme"><span class="fa fa-image"> <b>GALLERY</b></span></a></li>
+                    <li><a href="#aboutus" class="colorme"><span class="fa fa-user"> <b>ABOUTUS</b></span></a></li>
+                    <li><a href="#contact" class="colorme"><span class="fa fa-phone-square"> <b>CONTACTUS</b></span></a></li>
+                    <li><a href="#location" class="colorme"><span class="fa fa-map-marker"> <b>LOCATION</b></span></a></li>
+                </ul>
             </div>
         </div>
+    </nav>
+    <div id="home">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src=".\images\caro1.jpg" class="img-responsive" alt="Image">
+                </div>
+                <div class="item">
+                    <img src=".\images\caro2.jpg" class="img-responsive" alt="Image">
+                </div>
+                <div class="item">
+                    <img src=".\images\caro3.jpg" class="img-responsive" alt="Image">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id=category>
+        <div class="container text-center">
+            <h2><b>CATEGORY</b></h2><br>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\nut.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                        <p style="color:black"><b>Nut Bolts and Screws</b></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\paint.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                        <p style="color:black"><b>Colorfull Paints</b></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\wire.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                        <p style="color:black"><b>Wires</b></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\light.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                        <p style="color:black"><b>Ordinary and LED Bulbs</b></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\pipes.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                        <p style="color:black"><b>Pipes</b></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\cement.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                        <p style="color:black"><b>Building Cement</b></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\carbon steel wires.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                        <p style="color:black"><b>Carbon Steel Wires</b></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\switch.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                        <p style="color:black"><b>Switches</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="gallery">
+        <div class="container text-center">
+            <h2><b>GALLERY</b></h2><br>
+
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\ga-1.jpg" class="img-responsive" alt="Image">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\ga-2.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\ga-3.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\ga-4.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src=".\images\ga-5.jpg" class="img-responsive" width="400" height="300" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="aboutus">
+        <div class="container text-center">
+            <h2><b>ABOUT US</b></h2><br>
+            <div class='row text-center'>
+                <div class='photo col-md-6'>
+                    <img class="img-responsive" src=".\images\about.jpg" width=100% alt="Normal photo 1513033256" />
+                    <br><br>
+                </div>
+                <div class='body col-md-6 text-justify'>
+                    <p>We, Guhan Hardware located in Madurai, Tamil Nadu, are a pioneer organisation engaged in
+                        supplying and trading a broad array of nuts, bolts and industrial fasteners available in
+                        various brands. These products are manufactured in strict compliance with the industrial
+                        standards, by using superior quality raw material, procured from the certified vendors.
+                        Further, our products possess certain salient features like high tensile strength,
+                        corrosion resistance and longer service life. We work hard for winning the utmost trust of
+                        the
+                        clients. Ensuring the same, we offer our entire range of products at competitive market
+                        prices.
+                        Further,our patrons appreciate us for our consistent quality standards and we try to
+                        maintain the
+                        same.We have a team of experienced quality auditors, who ensure that we offer a defect free
+                        range of products to our customers. Being a client-oriented company, we always work hard to
+                        fulfil
+                        the dynamic demands of our valued clients. The range offered by us is in line with varied
+                        quality standards and specifications of our clients.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container text-center">
+            <h2><b>CONTACT US</b></h2>
+            <p style="padding:0rem 5rem;" class="colorme">
+                <h3><span class="fa fa-map-marker text-center"> <b>OUR SHOP ADDRESS</b></h3>
+                <h4>585, Guhan Hardwares,</h4>
+                <h4>Near Yanai Kulai, Anna Nagar, </h4>
+                <h4> Madurai, Tamil Nadu 625020</h4>
+            </p>
+            <p style="padding:0rem 5rem;" class="colorme">
+                <h3><span class="fa fa-phone-square text-center"> <b>CALL US</b></h3>
+                <h4>+91-8754332496</h4>
+            </p>
+            <p style="padding:0rem 5rem;" class="colorme">
+                <h3><span class="fa fa-history"> <b>OUR TIMING</b></h3>
+                <h4>Monday to Saturday : 08:00 AM to 10:30 PM</h4>
+                <h4>Sunday : 08:30 AM to 4:30 PM</h4>
+            </p>
+        </div>
+    </div>
+    <div id="location">
+        <div class="container text-center">
+            <h2><b>LOCATION</b></h2><br>
+        </div>
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height:400px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d3930.1436363892662!2d78.14748856479353!3d9.921993242904659!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d9.9227565!2d78.14878259999999!4m5!1s0x3b00c5ae9e88b033%3A0xad1d805905a6cfd!2sguhan+hardwares!3m2!1d9.92123!2d78.150544!5e0!3m2!1sen!2sin!4v1547272009569"
+                width="400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
     <footer class="container-fluid text-center">
         <b>
             <p class="colorme">Design and Development : Akshaya Muthukumar</p>
