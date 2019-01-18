@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"
-        data-company-font="true" />
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
     <link rel="stylesheet" media="screen" href="./styles.css" />
@@ -14,26 +14,26 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>      
+<body>
     <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#home">GUHAN HARDWARES</a>
-                    </div>
-
-            <div class="collapse navbar-collapse mr-auto" id="myNavbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Guhan Hardwares</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="colorme"><a href="#category" ><span class="fa fa-share-alt"> <b>CATEGORY</b></span></a></li>
-                    <li><a href="#gallery" class="colorme"><span class="fa fa-image"> <b>GALLERY</b></span></a></li>
-                    <li><a href="#aboutus" class="colorme"><span class="fa fa-user"> <b>ABOUTUS</b></span></a></li>
-                    <li><a href="#contact" class="colorme"><span class="fa fa-phone-square"> <b>CONTACTUS</b></span></a></li>
-                    <li><a href="#location" class="colorme"><span class="fa fa-map-marker"> <b>LOCATION</b></span></a></li>
+                    <li class="colorme"><a href="#category"><span class="fa fa-share-alt"> CATEGORIES </span></a></li>
+                    <li><a href="#gallery" class="colorme"><span class="fa fa-image"> GALLERY </span></a></li>
+                    <li><a href="#aboutus" class="colorme"><span class="fa fa-user"> ABOUT US</span></a></li>
+                    <li><a href="#contact" class="colorme"><span class="fa fa-phone-square"> BRANCHES</span></a></li>
                 </ul>
             </div>
+        </div>
     </nav>
     <div id="home">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -120,7 +120,7 @@
     </div>
     <div id="gallery">
         <div class="container text-center">
-            <h2><b>GALLERY</b></h2><br>
+            <h2><b>Gallery</b></h2><br>
 
             <div class="row text-center">
                 <div class="col-md-3">
@@ -153,9 +153,9 @@
     </div>
     <div id="aboutus">
         <div class="container text-center">
-            <h2><b>ABOUT US</b></h2><br>
+            <h2><b>About Us</b></h2><br>
             <div class='row text-center'>
-                <div class='photo col-md-6'>
+                <div class='photo col-md-6 '>
                     <img class="img-responsive" src=".\Images\about.jpg" width=100% alt="Normal photo 1513033256" />
                     <br><br>
                 </div>
@@ -200,20 +200,59 @@
             </p>
         </div>
     </div>
-    <div id="location">
-        <div class="container text-center">
-            <h2><b>LOCATION</b></h2><br>
+    <div id="location" class="container">
+        <div class="row text-center">
+            <h2><b>Branches</b></h2><br>
         </div>
-        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height:400px">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d3930.1436363892662!2d78.14748856479353!3d9.921993242904659!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d9.9227565!2d78.14878259999999!4m5!1s0x3b00c5ae9e88b033%3A0xad1d805905a6cfd!2sguhan+hardwares!3m2!1d9.92123!2d78.150544!5e0!3m2!1sen!2sin!4v1547272009569"
-                width="400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="col-md-6">
+                    <a class="btn-floating red accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                    <p>585, Guhan Hardwares</p>
+                    <p>AnnaNagar , Madurai-6250 20</p>
+                </div>
+                <div class="col-md-6">
+                    <a class="btn-floating red accent-1"><i class="fas fa-phone"></i></a>
+                    <p>+91 8754332496</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height:400px">
+                    <iframe src="https://maps.google.com/maps?q=guhan%20hardwares%2C%20madurai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="col-md-6">
+                    <a class="btn-floating red accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                    <p>48, Sasi Hardwares Sivagangai Road, Near Anna BusStand</p>
+                    <p>Anna Nagar , Madurai-6250 2</p>
+                </div>
+
+                <div class="col-md-6">
+                    <a class="btn-floating red"><i class="fas fa-phone"></i></a>
+                    <p>+91 9842138136</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height:400px">
+                    <iframe src="https://maps.google.com/maps?q=sasi%20hardwares%2C%20madurai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
         </div>
     </div>
-    <footer class="container-fluid text-center">
-        <b>
-            <p class="colorme">Design and Development : Akshaya Muthukumar</p>
-        </b>
-    </footer>
+    <div id="footer" class="container">
+        <div class="row">
+            <b>
+                <p class="colorme">Design and Development : Akshaya Muthukumar</p>
+            </b>
+        </div>
+    </div>
 </body>
 
 </html>
