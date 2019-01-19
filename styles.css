@@ -1,67 +1,88 @@
 body {
-       font-weight: 400;
-       line-height: 1.75em;
-       margin: 0;
-       font-family:"Arbutus Slab";
-       font-size: 16px;
-       position: relative; 
+     font-weight: 400;
+     line-height: 1.75em;
+     margin: 0;
+     font-family:"Arbutus Slab";
+     font-size: 16px;
+     position: relative;
+}
+ #footer{
+     background-color:#f8f8f8;
+     padding:10px;
+}
+ .carousel-inner img{
+     width:100%;
+     margin:auto;
+     max-height:800px;
+     content: 800;
+}
+ #category {
+     padding-top:50px;
+     height:100%;
+     color:#333;
+     background-color:#f8f8f8 
+}
+ #gallery {
+     padding-top:50px;
+     height:100%;
+     color:white;
+     background-color:#3D3D46 
+}
+ #location {
+     padding-top:50px;
+     height:100%;
+     color:white;
+     background-color:#3D3D46 
+}
+ #home {
+     padding-top:50px;
+     height:100%;
+     color:white;
+     background-color:#3D3D46 
+}
+ #contact {
+     padding-top:50px;
+     height:100%;
+     color:white;
+     background-color:#3D3D46 
+}
+ #aboutus {
+     padding-top:50px;
+     height:100%;
+     color:black;
+     background-color: #f8f8f8 
+}
+ @media (width:100%) {
+     .carousel-caption {
+         display: none;
+    }
+}
+ #contact h3{
+     color:#E0350B;
+}
 
-  }
-   #footer{
-       background-color:#fff;
-       padding:10px;
-  }
-   .carousel-inner img{
-       width:100%;
-       margin:auto;
-       max-height:800px;
-       content: 800;
-  }
-   .colorme{
-       color:#1C1C84;
-  }
-   #category {
-      padding-top:50px;
-      height:100%;
-      color:white;
-     background-color:#3D3D46
-  }
-   #gallery {
-      padding-top:50px;
-      height:100%;
-      color:white;
-       background-color:#3D3D46
-  }
-   #location {
-      padding-top:50px;
-      height:100%;
-      color:white;
-       background-color:#3D3D46
-  }
-   #home {
-      padding-top:50px;
-      height:100%;
-      color:white;
-       background-color:#3D3D46
-  }
-   #contact {
-      padding-top:50px;
-      height:100%;
-      color:white;
-       background-color:#3D3D46
-  }
-   #aboutus {
-      padding-top:50px;
-      height:100%;
-      color:white;
-       background-color: #3D3D46
-  }
-   @media (width:100%) {
-       .carousel-caption {
-           display: none;
-      }
-  }
-   #contact h3{
-       color:#E0350B;
-  }
-   
+.img-responsive {
+     width: auto;
+     height: 100px;
+ }
+
+ .maps {
+      width: 100%;
+      min-height: 300px;;
+ }
+
+ .aboutUsContent {
+      margin-bottom: 50px;
+ }
+
+ .section {
+      padding-bottom: 50px;
+ }
+
+ .navbar-default .navbar-nav>li>a {
+     color: #000080;
+ }
+
+ .navbar-default .navbar-brand {
+     color: #000080;
+ }
